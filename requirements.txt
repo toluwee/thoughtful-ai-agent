@@ -1,0 +1,14 @@
+# Thoughtful AI Customer Support Agent - Dependencies
+
+# Web Framework
+streamlit>=1.31.0
+
+# Machine Learning / NLP
+scikit-learn>=1.3.0
+numpy>=1.24.0
+
+# Standard library enhancements (usually included but listed for clarity)
+# typing - built-in for Python 3.8+
+# json - built-in
+# logging - built-in
+# pathlib - built-in
