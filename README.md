@@ -4,7 +4,7 @@
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.31.0+-red.svg)](https://streamlit.io)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-> **🚀 [Try Live Demo on Repl.it](https://replit.com/@onlinetolu/thoughtful-ai-agent)** - Click "Run" to test the agent instantly!
+> **🚀 [Try Live Demo on Repl.it](https://3ba0b2a2-4b70-4415-8c5f-a8f0b4bf2325-00-2v3eyxe8wm5vp.janeway.replit.dev/)** - Click "Run" to test the agent instantly!
 
 A conversational AI agent designed to answer questions about Thoughtful AI's healthcare automation agents using intelligent question matching and graceful fallback handling.
 
