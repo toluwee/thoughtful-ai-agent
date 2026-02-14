@@ -30,7 +30,7 @@ This application provides an interactive chat interface where users can ask ques
 
 ### Option 1: Try Online (No Setup Required)
 
-**[Launch Live Demo on Repl.it →](https://replit.com/@onlinetolu/thoughtful-ai-agent)**
+**[Launch Live Demo on Repl.it →](https://3ba0b2a2-4b70-4415-8c5f-a8f0b4bf2325-00-2v3eyxe8wm5vp.janeway.replit.dev/)**
 
 1. Click the link above
 2. Click the green "Run" button
