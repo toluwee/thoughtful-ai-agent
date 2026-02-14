@@ -1,0 +1,10 @@
+run = "streamlit run app.py --server.headless true --server.port 8501"
+
+[nix]
+channel = "stable-21_11"
+
+[env]
+PYTHONPATH = "${REPL_HOME}"
+
+[deployment]
+run = ["sh", "-c", "streamlit run app.py --server.headless true --server.port 8501"]
