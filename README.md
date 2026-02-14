@@ -4,6 +4,8 @@
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.31.0+-red.svg)](https://streamlit.io)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+> **🚀 [Try Live Demo on Repl.it](https://replit.com/@onlinetolu/thoughtful-ai-agent)** - Click "Run" to test the agent instantly!
+
 A conversational AI agent designed to answer questions about Thoughtful AI's healthcare automation agents using intelligent question matching and graceful fallback handling.
 
 ## 📋 Overview
@@ -26,16 +28,27 @@ This application provides an interactive chat interface where users can ask ques
 
 ## 🚀 Quick Start
 
-### Prerequisites
+### Option 1: Try Online (No Setup Required)
+
+**[Launch Live Demo on Repl.it →](https://replit.com/@onlinetolu/thoughtful-ai-agent)**
+
+1. Click the link above
+2. Click the green "Run" button
+3. Wait 10-15 seconds for the app to start
+4. Start asking questions!
+
+### Option 2: Run Locally
+
+#### Prerequisites
 
 - Python 3.8 or higher
 - pip package manager
 
-### Installation
+#### Installation
 
 ```bash
 # Clone the repository
-git clone <your-repo-url>
+git clone https://github.com/toluwee/thoughtful-ai-agent.git
 cd thoughtful-ai-agent
 
 # Install dependencies
@@ -47,9 +60,9 @@ streamlit run app.py
 
 The application will open in your browser at `http://localhost:8501`
 
-### One-Click Launch (Windows)
+#### One-Click Launch (Windows)
 
-Simply double-click `RUN_APP.bat`
+Simply double-click `RUN_APP.bat` in the project folder.
 
 ## 📖 Usage
 
