@@ -95,18 +95,24 @@ Simply double-click `RUN_APP.bat`
 ```
 thoughtful-ai-agent/
 ├── app.py                      # Main Streamlit application
-├── agent/
+├── agent/                      # Core agent modules
 │   ├── __init__.py            # Package initializer
 │   ├── knowledge_base.py      # Knowledge base loader
 │   ├── matcher.py             # Question matching engine
 │   └── responder.py           # Response generation logic
-├── data/
+├── data/                       # Data files
 │   └── knowledge_base.json    # Predefined Q&A dataset (8 pairs)
+├── tests/                      # Test files
+│   ├── test_simple.py         # Basic functionality tests
+│   ├── test_improvements.py   # Enhancement tests
+│   └── test_agent.py          # Integration tests
+├── docs/                       # Documentation
+│   ├── ARCHITECTURE.md        # System architecture
+│   ├── DEPLOYMENT.md          # Deployment guide
+│   └── TESTING.md             # Testing documentation
 ├── requirements.txt           # Python dependencies
-├── README.md                  # This file
-├── DEPLOYMENT.md              # Deployment guide
-├── PROJECT_SUMMARY.md         # Technical summary
-└── QUICKSTART.md              # Quick start guide
+├── LICENSE                    # MIT License
+└── README.md                  # This file
 ```
 
 ## 🔧 Technology Stack
@@ -123,14 +129,16 @@ thoughtful-ai-agent/
 Run the test suite:
 
 ```bash
-python test_simple.py
+python tests/test_simple.py
 ```
 
 Test the improvements:
 
 ```bash
-python test_improvements.py
+python tests/test_improvements.py
 ```
+
+See `docs/TESTING.md` for detailed testing documentation.
 
 ### Test Results
 
@@ -185,7 +193,7 @@ streamlit run app.py --server.port 8502
 pip install --upgrade -r requirements.txt
 ```
 
-See `DEPLOYMENT.md` for more troubleshooting help.
+See `docs/DEPLOYMENT.md` for more troubleshooting help.
 
 ## 📝 Evaluation Criteria
 
@@ -217,7 +225,15 @@ This project meets all evaluation criteria:
 - **Heroku** - Production hosting
 - **Docker** - Containerized deployment
 
-See `DEPLOYMENT.md` for detailed instructions.
+See `docs/DEPLOYMENT.md` for detailed instructions.
+
+## 📚 Documentation
+
+Detailed documentation is available in the `docs/` folder:
+
+- **[ARCHITECTURE.md](docs/ARCHITECTURE.md)** - System architecture and design decisions
+- **[DEPLOYMENT.md](docs/DEPLOYMENT.md)** - Deployment guide for various platforms
+- **[TESTING.md](docs/TESTING.md)** - Testing documentation and test coverage
 
 ## 📄 License
 
